@@ -132,7 +132,7 @@ public class App {
         book book = new book();
         System.out.print("Введите название книги: ");
         book.setBookName(scanner.nextLine());
-        System.out.print("Введите год издания книги: ");
+        System.out.print("Введите год изданиея книги: ");
         book.setPublisheYear(scanner.nextInt());scanner.nextLine();
         System.out.println("Введите автора книги ");
         System.out.print("Сколько авторов у книги: ");
@@ -188,7 +188,7 @@ public class App {
                 System.out.println(i+1+". "+readers[i].toString());
             }
         }
-        System.out.print("Выберите номер читателя: ");
+        System.out.print("Выберити номер читателя: ");
         int numberReader = scanner.nextInt(); scanner.nextLine();
         history.setBook(books[numberBook-1]);
         history.setReader(readers[numberReader-1]);
