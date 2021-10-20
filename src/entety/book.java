@@ -47,6 +47,14 @@ public class book {
     public String toString() {
         return "book{" + "bookName=" + bookName + ", authors=" + Arrays.toString(authors) + ", publisheYear=" + publisheYear + '}';
     }
+
+    public void setPublishedYear(int nextInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getPublishedYear() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    
    
    

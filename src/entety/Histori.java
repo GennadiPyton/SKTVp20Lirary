@@ -56,6 +56,14 @@ public class Histori {
     public String toString() {
         return "Histori{" + "reader=" + reader + ", book=" + book + ", givenDate=" + givenDate + ", returnDate=" + returnDate + '}';
     }
+
+    public Object getReturnedDate() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setReturnedDate(Date time) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }
